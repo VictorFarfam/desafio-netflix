@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/documentario.css">
+    <link rel="stylesheet" href="/style/documentario.css">
+
+    <!--resposividade-->
+    <link rel="stylesheet" href="/style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="/style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="/style/owl/owl.theme.default.min.css">
     <title>CloneFlix</title>
 </head>
 <body>
@@ -19,5 +26,48 @@
             </nav>
         </div>
     </header>
+    <main>
+        <div class="documentario-principal">
+            <div class="container">
+                <h3 class="titulo">NEW YORK</h3>
+                <p class="descricao"> This eight-part, 16½-hour television event explores New York City's rich history as the premier laboratory of modern life. A sweeping narrative covering nearly 400 years and 400 square miles, it reveals a complex and dynamic city that has played an unparalleled role in shaping the nation and reflecting its ideals.</p>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fa-solid fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fa-solid fa-circle-info"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>    
+            </div>
+        </div>
+    </main>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="block-filme" src="/img/Documentario/doc1.jpg" alt="" srcset="">
+            </div>      
+            <div class="item">
+                <img class="block-filme" src="/img/Documentario/doc2.jpg" alt="" srcset="">
+            </div>         
+            <div class="item">
+                <img class="block-filme" src="/img/Documentario/doc3.jpg" alt="" srcset="">
+            </div>   
+            <div class="item">
+                <img class="block-filme" src="/img/Documentario/doc4.jpg" alt="" srcset="">
+            </div>    
+            <div class="item">
+                <img class="block-filme" src="/img/Documentario/doc5.jpg" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/006cbcb5ff.js" crossorigin="anonymous"></script>
+    <script src="/js/owl/jquery.min.js"></script>
+    <script src="/js/owl/owl.carousel.min.js"></script>
+    <script src="/js/owl/main.js"></script>
 </body>
 </html>
